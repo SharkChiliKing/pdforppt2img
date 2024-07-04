@@ -1,0 +1,22 @@
+{
+  "name": "pdforppt2img",
+  "version": "1.0.0",
+  "description": "pdf2png and pptx2pdf is major function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utils",
+    "linux",
+    "free",
+    "External",
+    "programs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SharkChiliKing/pdforppt2img.git"
+  },
+  "author": "liubiao",
+  "license": "ISC"
+}
