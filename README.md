@@ -5,12 +5,13 @@
 - sudo yum install poppler-utils 安装 poppler 插件
 - sudo apt install libreoffice-dev（libreoffice） 安装（libreoffice 软件）
 - sudo apt install imagemagick （imagemagick ） 安装（imagemagick ）
+- 可使用 soffice --version ;convert --version 命令查看是否安装成功
 
 ## 使用
 
 ```javascript
 // 引入
-const { pptx2pdf, pdf2png } = require("../../misc/conver");
+const { pptx2pdf, pdf2png } = require("pdforppt2img");
 ```
 
 ### pptx2pdf
@@ -29,7 +30,7 @@ const result = await pptx2pdf(enterPath, outputPath, type);
 }
 ```
 
-### pdf2png 
+### pdf2png
 
 ```javascript
 const result = await pdf2png(
