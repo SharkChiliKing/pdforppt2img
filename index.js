@@ -26,7 +26,6 @@ class Conver {
   }
 
   static async pdf2png(
-    newFileNameBase,
     enterPath,
     outputPath,
     type,
@@ -50,7 +49,6 @@ class Conver {
       return {
         success: true,
         message: "File created successfully",
-        name: newFileNameBase || "default",
       };
     } catch (error) {
       throw error;
